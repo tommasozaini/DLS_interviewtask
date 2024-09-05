@@ -1,0 +1,2 @@
+load("/Users/tommasozaini/Documents/IIASA_DLS/InterviewTask/Data/projected_dle-total-and-sectoral-scaled_SHAPE-final.RData")
+load("/Users/tommasozaini/Documents/IIASA_DLS/InterviewTask/Data/projected_dle_total_and_sectoral_scaled_SHAPE_final_copy.RData")

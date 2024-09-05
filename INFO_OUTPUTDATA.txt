@@ -1,0 +1,24 @@
+Columns.
+
+model: name of integrated assessment model (IAM)
+scenario: name of scenario
+iso: ISO3C code of country
+variable: related IAM variable, indicating energy sector at the final energy level
+unit: unit that the IAM variable is reported in
+year: year of simulation
+scenario.mapping: which SSP is most similar
+pop_mil: population in millions
+energy.per.capita: relevant energy per capita consumption, at the final energy level, in GJ/cap/yr, after res.ratio and res.tradbio have already been applied to downscaled energy pathways
+res.ratio: ratio of final energy consumption of residential/(residential + commercial) in the buildings sector
+res.tradbio: ratio of traditional bioenergy consumption out of total residential energy consumption
+energy.gini: within-country Gini coefficient of final energy consumption per capita
+gini.to.gini.elasticities.by.country.down: downward income-to-energy gini-to-gini elasticity
+gini.to.gini.elasticities.by.country.up: upward income-to-energy gini-to-gini elasticity
+gini: within-country Gini coefficient of income per capita
+dle.tech.scaler: increase in service provisioning efficiency
+dle.threshold.curtech: DLE threshold in GJ/cap/yr using current technologies, without any change in the scenario considered
+dle.threshold.adjusted: DLE threshold in GJ/cap/yr after applying dle.tech.scaler, considering changes in the scenario
+share.below.projected.curtech: share of population below dle.threshold.curtech
+depth.below.projected.curtech: average intensity of poverty of those consuming less than dle.threshold.curtech (depth of deficit)
+share.below.projected.adjusted: share of population below dle.threshold.adjusted
+depth.below.projected.adjusted: average intensity of poverty of those consuming less than dle.threshold.adjusted (depth of deficit)
